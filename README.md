@@ -31,7 +31,7 @@ You can display the content you need and arrange different widgets to show the v
 Blynk is able to use a bluetooth low energy connection for data transmission. But adding a BLE interface to the Arduino would be only a small step forward. So I decided to develop my own BLE dongle to connect to the OBD port of the car. A system I can leave plugged in while driving and to be energy efficient to stay without depleting the 12V battery. Therefor the RFduino micro controller is the perfect fit as it is small, very efficient and stable. It runs a well developed RTOS and can be programmed with the Arduino IDE. It has excellent ultra low power features for a deep sleep of the module.
 
 ## What is Needed
-* The PCB: You can use the Eagle CAD files for ordering the PCB at various online manufacturing services. You will find the board on OSH Park and can order it there. As an alternative a local FabLab or MakerSpace may has a rapid prototyping mill for PCBs you could use. I made my prototype this way.
+* The PCB: You can use the Eagle CAD files for ordering the PCB at various online manufacturing services. You will find the board on [OSH Park and can order it there](https://oshpark.com/shared_projects/RnRzi1Kz). As an alternative a local FabLab or MakerSpace may has a rapid prototyping mill for PCBs you could use. I made my prototype this way.
 
 * The parts: get the complete bill of materials ([BOM](https://github.com/MyLab-odyssey/EDm_BLE/blob/master/schematics/EDm_v1.1_BOM.txt)) from my GitHub-repo. Most parts are stock articles from common distributors.
 You need skills in soldering SMD parts and a good soldering station (the CAN controller is fine pitch).
