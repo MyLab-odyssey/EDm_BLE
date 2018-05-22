@@ -15,7 +15,7 @@ Qty Value                  Device                                               
 1   500mA, slow            FUSE500MA                                                F3366                    F1                FUSE, 576-0452.500MRL
 1   DCDC_OKI-78SR          DCDC_OKI-78SR                                            OKI-78SR                 78SR              5V, 4.95W DC/DC Converter, 580-OKI78SR51.5W36HC
 1   ENABLE TRANCEIVER STBY JUMPER-PAD-2-NOYES_SILK                                  PAD-JUMPER-2-NO_YES_SILK JP1
-1   MCP1755                MCP1755                                                  SOT23-5                  IC3               Microchip MCP1755 LDO Voltage Regulator, 579-MCP1755T-5002EOT
+1   MCP1755-3.3V           MCP1755 3.3V version                                     SOT23-5                  IC3               3.3V Microchip MCP1755 LDO Voltage Regulator, 579-MCP1755T-3302EOT
 1   MCP2515                MCP2515ST                                                TSSOP20                  IC1               MC2515, 579-MCP2515-I/ST
 1   MCP2562                MCP2551SO8                                               SO08                     IC2               CAN Transceiver Microchip, 579-MCP2562-E/SN
 1   OBDII                  M08X2-OBDII-COMTECH                                      OBDII-COMTECH            J1                .1" headers, two rows of 8 each
