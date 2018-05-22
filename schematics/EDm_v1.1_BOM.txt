@@ -6,7 +6,7 @@ Qty Value                  Device                                               
 1   100K 1/10W             SMD-RES-100K-5%-1/10W(0603)                              R0603                    R2                RESISTOR
 2   100n                   CAP0805                                                  0805                     C4, C5            CAPACITOR
 1   120R                   SMD-RES-120R-1%-1/10W(0603)                              R0603                    R4                RESISTOR
-1   16MHz                  SMD_OSC2                                                 SMD_OSC_35X15            Q1                RESONATOR, 81-CSTCE16M0V53-R0
+1   16MHz                  SMD_OSC2                                                 SMD_OSC_35X15            Q1                RESONATOR, 81-CSTCE16M0V53-R0 (EOL) -> use CSTNE16M0V530000R0 (81-CSTNE16M0V530000R)
 4   1K                     SMD-RES-1K-1%-1/10W(0603)                                R0603                    R1, R5, R6, R7    RESISTOR
 1   1k                     R-EU_R0603                                               R0603                    R3                RESISTOR
 2   22u 16V                CPOL-EUSMCA                                              SMC_A                    C2, C3            POLARIZED CAPACITOR (TANTALUM), 647-F931C226MAA
@@ -20,5 +20,8 @@ Qty Value                  Device                                               
 1   MCP2562                MCP2551SO8                                               SO08                     IC2               CAN Transceiver Microchip, 579-MCP2562-E/SN
 1   OBDII                  M08X2-OBDII-COMTECH                                      OBDII-COMTECH            J1                .1" headers, two rows of 8 each
 1   PESD2CAN               PESD2CAN                                                 SOT23                    D4                Silicon Schottky Diodes, 771-PESD2CAN-T/R
-1   RFD22301               RFD22301                                                 RFD21733                 RFDUINO           RF Digital RFD22301, 975-RFD22301
+1   RFD22301               RFD22301                                                 RFD21733                 RFDUINO           RF Digital RFD22301, 975-RFD22301 (EOL)
+													     -> use SIMBLEE (975-RFD77101) with adapter(*) or redesign for other MCU
 1   SMAJ18CA               DIODESMA                                                 SMA-DIODE                D2                Diode, 576-SMAJ18CA
+
+(*) SIMBLEE to RFDUINO footprint adapter: <https://oshpark.com/shared_projects/TrsQzmnW>
